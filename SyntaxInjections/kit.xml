@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<injections>
+
+	<injection name="injections.kit" selector="attribute-value.string.quoted" action="replace-children">
+		<zone name="kit-comment">
+			<starts-with>
+				<expression>&lt;!--</expression>
+				<capture number="0" name="delimiter.source.start"/>
+			</starts-with>
+			<ends-with>
+				<expression>--></expression>
+				<capture number="0" name="delimiter.source.end"/>
+			</ends-with>
+			<subzones>
+				<zone name="keyword.control">
+					<expression>(@)(import|include)\b</expression>
+					<capture number="0" name="" />
+				</zone>
+				<zone name="variable">
+					<expression>(\$|@)([^ ]+)</expression>
+					<capture number="1" name="punctuation" />
+					<capture number="2" name="name" />
+				</zone>
+				<zone name="operator">
+					<expression> =</expression>
+				</zone>
+			</subzones>
+		</zone>
+	</injection>
+
+	
+</injections>

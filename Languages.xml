@@ -5,7 +5,7 @@
 	<language id="espresso.default.HTML.kit">
 		
 		<!-- Note: root-zone will be deprecated in the next beta and replaced by syntax-name -->
-		<syntax-name>language-root.html</syntax-name>
+		<syntax-name>language-root.html.kit</syntax-name>
 		<name>Kit</name>
 		<detectors>
 			<extension>kit</extension>

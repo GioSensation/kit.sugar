@@ -1,0 +1,29 @@
+/*
+    @theme Kit Placeholder Theme
+    @placeholder kit
+*/ 
+
+kit-comment {
+	color: #F0C7B0;
+}
+
+kit-comment keyword.control punctuation {
+	color: #806496;
+}
+
+kit-comment keyword.control name {
+	color: #D3B6D7;
+}
+
+kit-comment delimiter.source.start,
+kit-comment delimiter.source.end {
+	color: rgb(0, 193, 213);
+}
+
+kit-comment variable punctuation {
+	color: #C35146;
+}
+
+kit-comment variable name {
+	color: #F27C50;
+}

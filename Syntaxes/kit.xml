@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<syntax name="language-root.html.kit">
+
+	<zones>
+		<!-- Root-level <zone> and <include> elements go here -->
+		<include collection="kit.collection"/>
+		<include syntax="language-root.html"/> 
+	</zones>
+	
+	<!-- The (optional) <library> tag contains collections of reusable zones -->
+	<library>
+		<!-- <collection> elements go here -->
+		<collection name="kit.collection">
+			<zone name="kit-comment">
+				<starts-with>
+					<expression>&lt;!--</expression>
+					<capture number="0" name="delimiter.source.start"/>
+				</starts-with>
+				<ends-with>
+					<expression>--></expression>
+					<capture number="0" name="delimiter.source.end"/>
+				</ends-with>
+				<subzones>
+					<zone name="keyword.control">
+						<expression>(@)(import|include)\b</expression>
+						<capture number="1" name="punctuation" />
+						<capture number="2" name="name" />
+					</zone>
+					<zone name="variable">
+						<expression>(\$|@)([^ ]+)</expression>
+						<capture number="1" name="punctuation" />
+						<capture number="2" name="name" />
+					</zone>
+					<zone name="operator">
+						<expression> =</expression>
+					</zone>
+				</subzones>
+			</zone>
+		</collection>
+	</library>
+	
+</syntax> 
