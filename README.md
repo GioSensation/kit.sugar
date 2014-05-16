@@ -31,7 +31,7 @@ Hope you like this. I sure do.
 
 (If you are wondering what theme I am using in Espresso, it is my personal fork of Railcasts, I will be adding it to my github profile soon)
 
-## Instalation
+## Installation
 
 1. Download and extract zip if the browser doesn't do this for you
 2. Rename folder kit.sugar
