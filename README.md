@@ -38,4 +38,4 @@ Hope you like this. I sure do.
 3. Double click the .sugar file
 4. Restart Espresso and enjoy!
 
-Coded with ☺︎ in Italy by [Gravida](http://gravida.pro "Gravida – Web Agency and creative business in Macerata") – Come say hello!
+Coded with &#9786;&#65038; in Italy by [Gravida](http://gravida.pro "Gravida – Web Agency and creative business in Macerata") – Come say hello!
