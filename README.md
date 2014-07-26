@@ -33,7 +33,9 @@ Hope you like this. I sure do.
 
 ## Installation
 
-1. Download and extract zip if the browser doesn't do this for you
-2. Rename folder kit.sugar
+1. Download the zip file at https://github.com/GioSensation/kit.sugar/archive/master.zip and extract it if the browser doesn't do this for you
+2. Rename the folder to kit.sugar
 3. Double click the .sugar file
-4. Restart Espresso - magic!
+4. Restart Espresso and enjoy!
+
+Coded with **☺︎** in Italy by [Gravida](http://gravida.pro "Gravida – Web Agency and creative business in Macerata") – Come say hello!
