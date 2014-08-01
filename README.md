@@ -22,6 +22,7 @@ Here is a preview image:
 
 ![The CodeKit syntax highlighting for Espresso](http://gsv-general.s3.amazonaws.com/kit-espresso-syntax.png)
 
+The preview above uses [GSVRailcasts, my personal theme for Espresso](https://github.com/GioSensation/gsvrailcasts-espresso-theme "My theme for Espresso, the web editor"). The actual look when you install the sugar will probably be different. You might want take a look at it, by the way, it's dark and spicy.
 
 Please note that since CodeKit syntax is written inside html comment blocks, this sugar will also color standard html comment blocks that you might have in your .kit files (not in .html files, though). This behavior might be changed in the future. I still have to investigate if it is feasible.
 
